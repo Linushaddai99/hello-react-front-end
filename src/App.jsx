@@ -5,15 +5,15 @@ import Greeting from './component/Greeting';
 function App() {
   return (
     <>
-        <BrowserRouter>
-            <div>
-                <Routes>
-                <Route path="/greeting" element={<Greeting />} />
-                </Routes>
-            </div>
-        </BrowserRouter>
+      <BrowserRouter>
+        <div>
+          <Routes>
+            <Route path="/greeting" element={<Greeting />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </>
   );
 }
 
-export default App
+export default App;

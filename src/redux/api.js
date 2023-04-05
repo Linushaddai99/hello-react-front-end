@@ -1,5 +1,4 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-// import axios from 'axios'
 
 const getGreetings = createAsyncThunk('hello-react-front-end/getGreetings', async () => {
   try {

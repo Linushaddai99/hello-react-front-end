@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import getGreetings from '../api';
 
-
 const initialState = {
   greetings: [],
 };
